@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        #container {
+            max-width: 800px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #logo {
+            display: block;
+            margin: 0 auto;
+            width: 272px;
+            height: 92px;
+            background-image: url('https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png');
+            background-size: cover;
+            text-indent: -9999px; /* Hide text */
+        }
+        #search-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        #search-form {
+            display: inline-block;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 24px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        #search-input {
+            width: 500px;
+            padding: 8px;
+            border: none;
+            outline: none;
+        }
+        #search-button {
+            padding: 8px 16px;
+            background-color: #4285f4;
+            color: #fff;
+            border: none;
+            border-radius: 24px;
+            cursor: pointer;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <a href="https://www.google.com/" id="logo">Google</a>
+        <div id="search-container">
+            <form id="search-form" action="https://www.google.com/search" method="GET">
+                <input type="text" id="search-input" name="q" placeholder="Search Google">
+                <button type="submit" id="search-button">Search</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
